@@ -1,6 +1,7 @@
 import React from "react";
 import CodeIcon from "@mui/icons-material/Code";
 import LanguageIcon from "@mui/icons-material/Language";
+import GithubIconBlack from "./github.svg";
 import { motion } from "framer-motion";
 import "./Projects.css";
 
@@ -40,7 +41,12 @@ const ProjectCard = ({ item }) => {
               rel="noopener noreferrer"
               className="code-btn"
             >
-              <CodeIcon className="code-icon" />
+                <img
+              src={GithubIconBlack }
+              className="code-icon"
+              alt="Github Icon"
+            />
+              {/* <GithubIconBlack className="code-icon" /> */}
             </a>
             <a
               href={item.website}

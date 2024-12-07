@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import ExpEdu from "./components/Experience/ExpEdu";
-import Customise from "./customise/Customise";
+// import Customise from "./customise/Customise";
 import { hexToHSL } from "./utils/hexToHsl";
 import "./App.css";
 
@@ -18,12 +18,12 @@ if (savedColors) {
     const hslValue = `hsl(${h}, ${s}%, ${l}%)`;
     document.documentElement.style.setProperty(cssVarName, hslValue);
 
-    if (cssVarName === "--background-color") {
-      document.documentElement.style.setProperty(
-        "--background-color-2",
-        `hsl(${h}, ${s}%, ${l + 6}%)`
-      );
-    }
+    // if (cssVarName === "--background-color") {
+    //   document.documentElement.style.setProperty(
+    //     "--background-color-2",
+    //     `hsl(${h}, ${s}%, ${l + 6}%)`
+    //   );
+    // }
     if (cssVarName === "--text-color") {
       document.documentElement.style.setProperty(
         "--grey-color",
@@ -36,7 +36,7 @@ if (savedColors) {
 const App = () => {
   return (
     <div className="app" id="app">
-      <Customise />
+      {/* <Customise /> */}
       <Navbar />
       <Home />
       <Skills />

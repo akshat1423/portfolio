@@ -6,6 +6,13 @@
   justify-content: center;
 }
 
+
+.img-skills{
+  height: 1.9em !important;
+    width: 1.9em !important;
+}
+
+
 .skills-content {
   width: 90%;
   display: flex;

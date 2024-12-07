@@ -2,11 +2,11 @@
 
 :root {
   --background-color: hsl(0, 0%, 4%);
-  --background-color-2: hsl(0, 0%, 10%);
+  --background-color-2:hsl(0, 0%, 10%);
   --text-color: hsl(0, 0%, 99%);
   --grey-color: hsl(0, 0%, 70%);
   --primary-color: hsl(36, 100%, 50%);
-  --secondary-color: hsl(0, 0%, 27%);
+  --secondary-color:hsl(0deg 6.09% 23.99%);
   /* --background-color: #0a0a0a;
   --background-color-2: #191919;
   --text-color: #fdfdfd;
@@ -61,6 +61,7 @@ a {
   background-color: var(--background-color-2);
   border: 1px solid var(--primary-color);
 }
+
 
 .secondary-button {
   all: unset;

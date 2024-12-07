@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Experience from "./Experience";
 import Education from "./Education";
+import Clubs from "./Clubs";
 import "./ExpEdu.css";
 
 const ExpEdu = () => {
@@ -35,9 +36,23 @@ const ExpEdu = () => {
             >
               <p>Education</p>
             </div>
+            {/* <div
+              className={
+                tabValue === "clubs" ? "clubs-tab tab active" : "clubs-tab tab"
+              }
+              onClick={() => setTabValue("clubs")}
+            >
+              <p>Clubs</p>
+            </div> */}
           </div>
           <div className="exp-edu-details">
-            {tabValue === "exp" ? <Experience /> : <Education />}
+            {tabValue === "exp" ? (
+              <Experience />
+            ) : tabValue === "edu" ? (
+              <Education />
+            ) : (
+              <Clubs />  // Add the conditional rendering for Clubs
+            )}
           </div>
         </div>
       </div>

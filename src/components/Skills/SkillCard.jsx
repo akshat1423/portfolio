@@ -5,7 +5,7 @@ const SkillCard = ({ item }) => {
   return (
     <div className="skill-item">
       <div className="item-image">
-        <img src={item.image} alt={item.name} />
+        <img className="img-skills" src={item.image} alt={item.name} />
       </div>
       <div className="item-title">
         <p>{item.name}</p>

@@ -55,8 +55,8 @@
 }
 
 .tab.active {
-  background-color: var(--grey-color);
-  color: var(--background-color);
+  background-color: var(--background-color-2);
+  /* color: var(--background-color); */
 }
 
 .exp-edu-details {

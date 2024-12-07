@@ -16,10 +16,18 @@ const Experience = () => {
                 <h3>{expItem.title}</h3>
               </div>
               <div className="company">
-                <p>{expItem.company}</p>
+              <a href={expItem.link} target="_blank" rel="noopener noreferrer">
+                <p>{expItem.company} <u>(Official Website)</u></p>
+              </a>
+            </div>
+              <div className="role">
+                <p>{expItem.role1}</p>
               </div>
               <div className="role">
-                <p>{expItem.role}</p>
+                <p>{expItem.role2}</p>
+              </div>
+              <div className="role">
+                <p>{expItem.role3}</p>
               </div>
             </div>
           </div>

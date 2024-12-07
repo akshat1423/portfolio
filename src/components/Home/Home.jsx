@@ -4,8 +4,11 @@ import React, { useEffect } from "react";
 import HelloImg from "./hello.png";
 import GithubIconBlack from "./github.svg";
 import LinkedinIconBlack from "./linkedin.svg";
+import EmailIcon from "@mui/icons-material/Email";
 import "./Home.css";
 import gsap from "gsap";
+
+
 
 const Home = () => {
 
@@ -38,8 +41,12 @@ const Home = () => {
   //   });
   // }, []);
 
-  return (
-    <div className="hero">
+  return (<>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+<script>
+VANTA.HALO('hero')
+</script>
+    <div className="hero" id="hero">
       {/* <div className="hero__container">
         hello
         </div> */}
@@ -85,6 +92,7 @@ const Home = () => {
               alt="Linkedin Icon"
             />
           </a>
+          
           <a
             href="https://github.com/akshat1423"
             aria-label="github profile"
@@ -97,9 +105,17 @@ const Home = () => {
               alt="Github Icon"
             />
           </a>
+              {/* <a
+          href="mailto:akshatjain@example.com" // Replace with your email address
+          aria-label="email"
+          className="email"
+        >
+          <EmailIcon fontSize="large" />
+        </a> */}
         </div>
       </div>
     </div>
+    </>
     // <></>
   );
 };

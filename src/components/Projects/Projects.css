@@ -136,6 +136,7 @@
 }
 
 .code-icon {
+  height: 1em;
   color: var(--primary-color);
 }
 

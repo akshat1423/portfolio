@@ -16,8 +16,12 @@ const Education = () => {
                 <h3>{eduItem.institution}</h3>
               </div>
               <div className="degree">
-                <p>{eduItem.degree}</p>
+                <p>Majors: {eduItem.degree}</p>
+                
               </div>
+              <div className="degree">
+                <p>Dual Minors: {eduItem.minordegree}</p>
+                </div>
             </div>
           </div>
         );
