@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import GithubIconBlack from "./github_black.svg";
 // import LinkedinIconBlack from "./linkedin_black.svg";
 import HelloImg from "./hello.png";
+import LocImg from "./location.png";
 import GithubIconBlack from "./github.svg";
 import LinkedinIconBlack from "./linkedin.svg";
 import EmailIcon from "@mui/icons-material/Email";
@@ -57,7 +58,18 @@ VANTA.HALO('hero')
           <h3>
             &nbsp; I'm <span>Akshat Jain</span>.
           </h3>
+          
         </div>
+        <div className="hero__sub">
+        <img src={LocImg} alt="Hello" />
+          <h3>
+            &nbsp;from <span>Mumbai, India</span>
+          </h3> 
+          
+        </div>
+
+      
+        
         <div className="hero__title">
           <h1>Software Developer</h1>
         </div>
