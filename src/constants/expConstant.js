@@ -1,4 +1,4 @@
-import CBREImg from "../assets/CBRE.png";
+import CBREImg from "../assets/cbre.png";
 import EvolvingPlanetImg from "../assets/evolvingplanet.png";
 import SaathHealthImg from "../assets/saathealth.jpg";
 import MoveupImg from "../assets/moveup.svg";
