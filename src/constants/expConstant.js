@@ -94,16 +94,4 @@ export const experienceData = [
     image: MapitAi,
   },
   
-  {
-    id: 7,
-    title: "Software and Web Head",
-    company: "IITB Alumni Relations Cell",
-    link: "https://acr.iitbombay.org/sarc/",
-    location: "Mumbai, India",
-    year: "Apr 2024 - Present",
-    role1: "• Leading a 4-tier team of 80+ to foster connection between 65,000+ alumni & 15,000+ students with 50+ initiatives",
-    role2: "• Managing 15+ CI/CD websites and using Nginx reverse proxy, Gunicorn with Google Analytics configured",
-    role3: "• Administering and optimizing PM2 servers VPS instances with 4vCPUs & 16GB/150GB, serving 20,000+ users",
-    image: SARCImg,
-  },
 ];

@@ -26,7 +26,7 @@ const ExpEdu = () => {
               }
               onClick={() => setTabValue("exp")}
             >
-              <p>Experience</p>
+              <p>Professional</p>
             </div>
             <div
               className={
@@ -34,7 +34,7 @@ const ExpEdu = () => {
               }
               onClick={() => setTabValue("edu")}
             >
-              <p>Education</p>
+              <p>College</p>
             </div>
             {/* <div
               className={
