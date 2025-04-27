@@ -71,12 +71,12 @@ VANTA.HALO('hero')
       
         
         <div className="hero__title">
-          <h1>Software Developer</h1>
+          <h1>Software Developer and Researcher</h1>
         </div>
         <div className="hero__description">
           <p>
-            Experienced in Full Stack Development and Machine Learning/GenAI Models Development.
-          </p> 
+            Research oriented in the domain on Machine Learning and Computer Vision and experienced in Software Development and .
+          </p>
         </div>
         {/* <div className="hero__cta">
           <p
