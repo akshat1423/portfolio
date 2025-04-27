@@ -75,7 +75,7 @@ VANTA.HALO('hero')
         </div>
         <div className="hero__description">
           <p>
-            Research oriented in the domain on Machine Learning and Computer Vision and experienced in Software Development and .
+            Research oriented in the domain on Machine Learning and Computer Vision and experienced in Software Development and DevOps.
           </p>
         </div>
         {/* <div className="hero__cta">
